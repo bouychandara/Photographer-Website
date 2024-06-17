@@ -14,7 +14,7 @@ export default function navbar()
     }
 
     return(
-        <nav className="flex items-center justify-between w-full h-[60px] shadow">
+        <nav className="flex items-center justify-between w-full h-[60px] shadow sticky top-0 z-10 bg-white">
             <div className="flex justify-center w-1/3">
                 <strong className="text-lg">Brand Name</strong>
             </div>
