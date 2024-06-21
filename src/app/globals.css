@@ -44,6 +44,10 @@ img{
   -webkit-user-drag: none;
 }
 
+.text-danger{
+  color:#ff0000;
+}
+
 @layer utilities{
   .text-balance{
     text-wrap: balance;
