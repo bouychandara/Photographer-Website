@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
+import { useEffect } from "react";
 
 export default function navbar()
 {
@@ -12,8 +13,12 @@ export default function navbar()
     {
         pathname = window.location.pathname;
         pathname = pathname.replace(/^\//, '');
-        document.title = pathname.toUpperCase();
     }
+
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    useEffect(() => {
+        document.title = pathname.toUpperCase() || 'Home';
+    },[pathname]);
 
     return(
         <nav className="flex items-center justify-between w-full h-[60px] shadow sticky top-0 z-10 bg-white">
