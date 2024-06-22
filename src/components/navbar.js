@@ -19,7 +19,7 @@ export default function navbar()
                 <strong className="text-lg">Brand Name</strong>
             </div>
             <div className="flex items-center justify-center w-2/4">
-                <ul className="flex gap-x-4 text-lg">
+                <ul className="flex gap-x-4 text-md">
                     <li>
                         <Link href="/" className={ pathname === '' ? 'active' : '' } onClick={handleActiveLink}>Home</Link>
                     </li>
