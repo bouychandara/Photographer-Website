@@ -36,8 +36,9 @@ body{
   user-select: none;
 }
 
+.hover\:active:hover,
 .active{
-  color: #ff9900;
+  color:#ff9900;
 }
 
 img{

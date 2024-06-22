@@ -23,7 +23,7 @@ export default function Footer()
         <footer className="w-full flex px-6 bg-[#1d2128] py-3 border-0">
             <div className="w-1/2 flex justify-center items-center">
                 <div className="flex flex-col justify-between h-5/6">
-                    <p className="text-3xl font-semibold max-w-[16.75rem] text-white">Say hello and let's work together!</p>
+                    <p className="text-3xl font-semibold max-w-[16.75rem] text-white">Say hello and let&apos;s work together!</p>
                     <div className="flex flex-col gap-y-3">
                         <div className="flex gap-x-3">
                             <Instagram></Instagram>

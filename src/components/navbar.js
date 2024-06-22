@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation'
 
 export default function navbar()
 {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     let pathname = usePathname();
     pathname = pathname.replace(/^\//, '');
 
@@ -24,19 +25,19 @@ export default function navbar()
                         <Link href="/" className={ pathname === '' ? 'active' : '' } onClick={handleActiveLink}>Home</Link>
                     </li>
                     <li>
-                        <Link href="/project" className={ pathname === 'project' ? 'active' : '' } onClick={handleActiveLink}>Project</Link>
+                        <Link href="/project" className={ pathname === 'project' ? 'active' : 'hover:active' } onClick={handleActiveLink}>Project</Link>
                     </li>
                     <li>
-                        <Link href="/work" className={ pathname === 'work' ? 'active' : '' } onClick={handleActiveLink}>Work</Link>
+                        <Link href="/work" className={ pathname === 'work' ? 'active' : 'hover:active' } onClick={handleActiveLink}>Work</Link>
                     </li>
                     <li>
-                        <Link href="/about" className={ pathname === 'about' ? 'active' : '' } onClick={handleActiveLink}>About Me</Link>
+                        <Link href="/about" className={ pathname === 'about' ? 'active' : 'hover:active' } onClick={handleActiveLink}>About Me</Link>
                     </li>
                     <li>
-                        <Link href="/blog" className={ pathname === 'blog' ? 'active' : '' } onClick={handleActiveLink}>Blog</Link>
+                        <Link href="/blog" className={ pathname === 'blog' ? 'active' : 'hover:active' } onClick={handleActiveLink}>Blog</Link>
                     </li>
                     <li>
-                        <Link href="/contact" className={ pathname === 'contact' ? 'active' : '' } onClick={handleActiveLink}>Contact</Link>
+                        <Link href="/contact" className={ pathname === 'contact' ? 'active' : 'hover:active' } onClick={handleActiveLink}>Contact</Link>
                     </li>
                 </ul>
             </div>

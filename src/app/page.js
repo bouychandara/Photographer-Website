@@ -7,7 +7,7 @@ export default function Home()
     <main className="w-full p-3 flex flex-col gap-y-4">
       <div className="w-full flex justify-evenly">
         <div className="flex flex-col gap-y-3 w-4/12">
-          <strong className="w-[221px] text-justify text-2xl">Hello! I'm Nelson, a photographer</strong>
+          <strong className="w-[221px] text-justify text-2xl">Hello! I&apos;m Nelson, a photographer</strong>
           <p className="text-justify text-lg">A photographer is a person who captures and creates images using a camera. Photography is both a science and an art, requiring technical skill and artistic vision. Photographers use their knowledge of light, composition, and perspective to create images that convey emotions, tell stories, or simply capture moments in time.</p>
           <span>
             <Link href="/about" className="active capitalize">More About Me</Link>
@@ -23,7 +23,7 @@ export default function Home()
           <div className="w-1/2 flex flex-col gap-y-2">
             <small className="text-[#248900] text-sm">Product Photography</small>
             <p className="text-xl">Paris Secret</p>
-            <p className="text-justify">A photographer is a person who captures and creates images using a camera. Photography is both a science and an art, requiring technical skill and artistic vision. Photographers use their knowledge of light, composition, and perspective to create images that convey emotions, tell stories, or simply capture moments in time.</p>
+            <p className="text-justify">A photographer is a person who captures and creates images using a camera. Photography is both a science and an art, requiring technical skill and artistic vision. Photographers use their knowledge of light, composition, and perspective to create images that convey emotions, tell stories, or simply capture moments in time.</p>
             <small>
               <Link href="/project" className="capitalize text-[#ff9900]">View project</Link>
             </small>
@@ -46,7 +46,7 @@ export default function Home()
           <div className="w-1/2 flex flex-col gap-y-2">
             <small className="text-sm text-[#fd0098]">Portrait</small>
             <p className="text-xl">Oceanic Feeling</p>
-            <p className="text-justify">A photographer is a person who captures and creates images using a camera. Photography is both a science and an art, requiring technical skill and artistic vision. Photographers use their knowledge of light, composition, and perspective to create images that convey emotions, tell stories, or simply capture moments in time.</p>
+            <p className="text-justify">A photographer is a person who captures and creates images using a camera. Photography is both a science and an art, requiring technical skill and artistic vision. Photographers use their knowledge of light, composition, and perspective to create images that convey emotions, tell stories, or simply capture moments in time.</p>
             <small>
               <Link href="/project" className="capitalize text-[#ff9900]">View project</Link>
             </small>
@@ -88,7 +88,7 @@ export default function Home()
             <strong className="text-[#ff003d] font-semibold">Testimonials</strong>
             <q className="w-10/12 text-justify">Sit veniam qui tempor ex ipsum voluptate deserunt cillum cillum excepteur elit mollit commodo fugiat enim veniam qui tempor ex ipsum voluptate</q>
             <p className="capitalize text-[#000000cd]">Name client - company</p>
-            <button className="bg-transparent capitalize px-2 py-1 border border-solid border-[#ff003d] rounded-lg font-semibold text-[#ff003d] hover:bg-[#ff003d] hover:text-[#fff]">Next</button>
+            <button className="bg-transparent capitalize px-2 py-1 border border-solid border-[#ff003d] rounded-md font-semibold text-[#ff003d] hover:bg-[#ff003d] hover:text-[#fff]">Next</button>
           </div>
         </div>
       </div>
