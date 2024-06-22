@@ -12,6 +12,7 @@ export default function navbar()
     {
         pathname = window.location.pathname;
         pathname = pathname.replace(/^\//, '');
+        document.title = pathname.toUpperCase();
     }
 
     return(
