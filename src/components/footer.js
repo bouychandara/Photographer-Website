@@ -52,8 +52,8 @@ export default function Footer()
                         <legend className="text-white font-semibold">Input your message</legend>
                         <textarea name="description" className="text-white border-0 bg-transparent focus:border-0 focus:outline-none p-2 pt-0 w-full h-full" placeholder="describe your project" onInput={Validation} required></textarea>
                     </fieldset>
-                    <div>
-                        <button type="submit" className="bg-[#e34d73] text-white p-2 rounded-md">Submit</button>
+                    <div className="block">
+                        <button type="submit" className="bg-[#e34d73] text-white px-2 py-1 rounded-md">Submit</button>
                     </div>
                 </form>
             </div>

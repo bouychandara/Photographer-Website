@@ -62,7 +62,7 @@ export default function Home()
             </div>
           </div>
         </div>
-        <button className="p-2 border-2 border-solid border-[#ff003d] rounded-lg bg-transparent text-[#ff003d] hover:bg-[#ff003d] hover:text-[#fff] capitalize">Browse all projects</button>
+        <button className="p-2 border border-solid border-[#ff003d] rounded-lg bg-transparent text-[#ff003d] hover:bg-[#ff003d] hover:text-[#fff] capitalize">Browse all projects</button>
       </div>
       <div className="w-full flex justify-center">
         <div className="w-11/12 flex flex-col gap-y-3">

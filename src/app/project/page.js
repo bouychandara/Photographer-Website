@@ -61,6 +61,9 @@ export default function Project()
                     </div>
                 </div>
             </div>
+            <div className="flex justify-center items-end h-[50px]">
+                <button className="bg-transparent px-5 py-1 rounded-md border border-solid border-[#ff003d] text-[#ff003d] hover:bg-[#ff003d] hover:text-white">View more</button>
+            </div>
         </main>
     );
 }
